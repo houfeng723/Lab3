@@ -48,9 +48,9 @@ public class lab3class1 {
                 }
                 else {
                     countWord++;
+                    //countWord increment by 1 when there is a space but not a space before this
                     index++;
                 }
-
             }
         }
         System.out.println("There are "+countWord+" words");
